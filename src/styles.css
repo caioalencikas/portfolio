@@ -1,0 +1,135 @@
+body {
+    margin: 0;
+    background-color: #23252C;
+}
+
+.app {
+    background-color: #F5F5F5;
+    width: 320px;
+    margin: 40px auto;
+    border-radius: 12px;
+
+    font-family: 'Inter', sans-serif;
+}
+
+.info {
+    background-color: #F5F5F5;
+    text-align: center;
+    border-radius: 12px;
+}
+
+.info--my-photo {
+    height: 320px;
+    border-radius: 12px 12px 0 0;
+}
+
+.info--text {
+    margin: 0 35px;
+}
+
+.info h1 {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 20px 0 0 0;
+}
+
+.info h2 {
+    font-size: 12.8px;
+    font-weight: 400;
+    margin: 6px 0 0 0;
+    color: #F47D27;
+}
+
+.info h4 {
+    font-size: 10px;
+    font-weight: 400;
+    margin: 8px 0 0 0;
+}
+
+.info--buttons {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 18px 0 0 0;
+}
+
+.info--buttons div {
+    display: flex;
+    align-items: center;
+    width: 90px;
+    padding: 6px 10px;
+    border-radius: 6px;
+    justify-content: space-evenly;
+}
+
+.info--buttons img {
+    height: 16px;
+}
+
+.info--buttons h3 {
+    font-weight: 500;
+    font-size: 14px;
+    margin: 0;
+}
+
+.info--email {
+    background-color: #FFFFFF;
+    border: 2px solid #D1D5DB;
+}
+
+.info--email h3 {
+    color: #374151;
+}
+
+.info--linkedin {
+    background-color: #297FE5;
+}
+
+.info--linkedin h3 {
+    color: #FFFFFF;
+}
+
+.about {
+    margin: 25px 35px 0 35px;
+}
+
+.about h1 {
+    margin: 0;
+    font-size: 16px;
+    color: #2B283A;
+}
+
+.about p {
+    font-size: 10px;
+    color: #4A4E74;
+}
+
+.interests {
+    margin: 25px 35px 0 35px;
+}
+
+.interests h1 {
+    margin: 0;
+    font-size: 16px;
+    color: #2B283A;
+}
+
+.interests p {
+    font-size: 10px;
+    color: #4A4E74;
+}
+
+.footer {
+    background-color: #D5D4D8;
+    display: flex;
+    padding: 20px 0;
+    justify-content: space-evenly;
+    border-radius: 0 0 12px 12px;
+    margin-top: 30px;
+}
+
+.footer img {
+    height: 35px;
+    border-radius: 6px;
+}
+
+
